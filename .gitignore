@@ -1,0 +1,119 @@
+# Common macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnail cache files
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ruby specific
+*.gem
+*.rbc
+.bundle
+.config
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+spec/examples.txt
+.rspec
+.rvmrc
+.ruby-version
+.ruby-gemset
+*.rdb
+vendor/bundle/
+vendor/cache/
+*.sqlite3
+*.sqlite3-journal
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Environment normalization:
+/.bundle
+/vendor/bundle
+/lib/bundler/man
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+#/Gemfile.lock
+#/vendor/cache/
+
+# Rails specific
+*.log
+*.pid
+*.seed
+*.state
+db/*.sqlite3
+db/*.sqlite3-journal
+db/schema.rb
+log/*
+tmp/**/*
+tmp/*
+Dockerfile
+public/assets
+public/packs
+public/packs-test
+node_modules
+yarn-error.log
+.babelrc
+/.yarnrc
+.yarnrc.yml
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Ignore master key for decrypting credentials and more
+/config/master.key
+
+# Swift specific
+*.hmap
+*.ipa
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/
+*.pbxuser
+!default.pbxuser
+*.perspective
+!default.perspective
+*.perspectivev3
+!default.perspectivev3
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+Carthage/
+*.derivedData
+*.swiftpm
+/.build
+/.swiftpm/xcode/package.xcworkspace
+/.swiftpm/xcode/xcuserdata
+
+# Playgrounds
+timeline
+playground.xcworkspace
+
+# Swift Package
+.build/
+
+# CocoaPods
+Pods/
+/Podfile.lock
